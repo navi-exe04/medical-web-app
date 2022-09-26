@@ -1,0 +1,52 @@
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;700&display=swap");
+
+// ---Variables---
+@import "./global";
+
+//Atoms
+@import "@atoms/HeaderOptionMenu/styles";
+@import "@atoms/HeaderMenuBtn/styles";
+//Molecules
+@import "@molecules/HeaderLogo/styles";
+@import "@molecules/HeaderMenu/styles";
+//Organism
+@import "@organisms/Header/styles";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  height: 98vh;
+  font-size: 1.6rem;
+  background-color: $primary;
+  font-family: $primary-font;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+a {
+  font-size: 1.8rem;
+  &:link,
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}

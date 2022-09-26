@@ -1,0 +1,14 @@
+.div-logo {
+  text-align: center;
+  color: $secondary;
+  h2,
+  span {
+    color: $text-secondary;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  span {
+    font-size: 2.4rem;
+  }
+}
