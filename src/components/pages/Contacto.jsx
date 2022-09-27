@@ -1,9 +1,8 @@
-import { CoverHome } from "@organisms/CoverHome";
 import { TemplatePage } from "@templates/TemplatePage";
-export const Inicio = () => {
+export const Contacto = () => {
   return (
     <TemplatePage>
-      <CoverHome />
+      <h1>Esta es la pagina de contacto</h1>
     </TemplatePage>
   );
 };

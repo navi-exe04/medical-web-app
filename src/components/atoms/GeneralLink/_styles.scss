@@ -1,0 +1,24 @@
+.link {
+  margin: 2rem;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  &.link-menu {
+    color: $text-secondary;
+    &:hover {
+      background-color: $primary;
+      color: $secondary;
+    }
+  }
+  &.link-cover {
+    color: $secondary;
+    border: 1px solid $secondary;
+    &.primary {
+      background-color: $secondary;
+      color: $primary;
+      &:hover {
+        transform: rotate(30);
+      }
+    }
+  }
+}

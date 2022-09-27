@@ -1,20 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HeaderMenuBtn } from "@atoms/HeaderMenuBtn";
+import { GeneralLink } from "@atoms/GeneralLink";
 
 export const HeaderMenu = () => {
   return (
     <>
       <HeaderMenuBtn additionalClass="hide" />
-      <Link to="/" className="link-menu active">
-        Inicio
-      </Link>
-      <Link to="/citas" className="link-menu">
-        Citas
-      </Link>
-      <Link to="/contacto" className="link-menu">
-        Contacto
-      </Link>
+      <GeneralLink toUrl="/" additionalClass="link-menu" textContent="Inicio" />
+      <GeneralLink
+        toUrl="/citas"
+        additionalClass="link-menu"
+        textContent="Citas"
+      />
+      <GeneralLink
+        toUrl="/contacto"
+        additionalClass="link-menu"
+        textContent="Contacto"
+      />
     </>
   );
 };

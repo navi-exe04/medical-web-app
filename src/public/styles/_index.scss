@@ -6,12 +6,17 @@
 
 //Atoms
 @import "@atoms/HeaderMenuBtn/styles";
+@import "@atoms/GeneralLink/styles";
 //Molecules
 @import "@molecules/HeaderLogo/styles";
 @import "@molecules/HeaderMenu/styles";
+@import "@molecules/GridItem/styles";
+@import "@molecules/CoverContent/styles";
 //Organism
 @import "@organisms/Header/styles";
-
+@import "@organisms/CoverHome/styles";
+//Templates
+@import "@templates/styles";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,7 +34,7 @@ html {
 body {
   height: 98vh;
   font-size: 1.6rem;
-  background-color: $primary;
+  background-color: $primary-light;
   font-family: $primary-font;
 }
 
